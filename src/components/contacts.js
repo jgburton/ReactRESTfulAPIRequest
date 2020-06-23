@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Contacts = ({ contacts }) => {
+    console.log(contacts);
     return (
         <div>
             <center><h1>Contact List</h1></center>
